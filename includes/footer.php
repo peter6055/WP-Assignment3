@@ -1,6 +1,6 @@
 <footer class="container" id="footer">
     <div id="left">
-        <a>Copyright 2021 by Peter Liu. All Rights Reserved.<br></a>
+        Copyright 2021 by Peter Liu. All Rights Reserved.<br>
         <a href="https://github.com/rmit-wp-s2-2021/s3789585-a3">https://github.com/rmit-wp-s2-2021/s3789585-a3</a>
     </div>
 

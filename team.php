@@ -41,7 +41,7 @@
                         src="assets/images/68dbd1/linkedin.png" alt="linkedin" width="20px"></a>
         </div>
         <div class="profile-map">
-            <img src="<?php map('sydney', 'australia') ?>" alt="Sydney map">
+            <img src="<?php map('sydneynsw', 'australia') ?>" alt="Sydney map">
         </div>
     </div>
 
@@ -66,7 +66,7 @@
                         src="assets/images/90d6a6/linkedin.png" alt="linkedin" width="20px"></a>
         </div>
         <div class="profile-map">
-            <img src="<?php map('melbourne', 'australia') ?>" alt="Melbourne map">
+            <img src="<?php map('melbournevic', 'australia') ?>" alt="Melbourne map">
         </div>
     </div>
 

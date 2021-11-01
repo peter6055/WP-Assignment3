@@ -72,20 +72,22 @@ h1 {
     text-align: center;
 }
 
-
+/* first (left) person border decoration*/
 #people-item1 {
     border-top: #68dcd1 10px solid;
 }
 
+/* second (middle) person border decoration*/
 #people-item2 {
     border-top: #91d6a6 10px solid;
 }
 
+/* third (right) person border decoration*/
 #people-item3 {
     border-top: #f0826a 10px solid;
 }
 
-
+/* img of the person profile*/
 .profile-img {
     border-radius: 99999px;
     background-repeat: no-repeat;
@@ -97,7 +99,7 @@ h1 {
     margin-right: auto;
 }
 
-
+/* person profile name*/
 .profile-name {
     font-family: "Lato", sans-serif, Arial;
     font-size: 18px;
@@ -108,6 +110,7 @@ h1 {
     margin: 10px auto 20px;
 }
 
+/* person profile role*/
 .profile-role {
     font-size: 20px;
     font-family: "Lato", sans-serif, Arial;
@@ -120,6 +123,7 @@ h1 {
     margin-bottom: 25px;
 }
 
+/* person profile intro*/
 .profile-intro {
     font-size: 15px;
     font-family: "Noto Sans", sans-serif, Arial;
@@ -127,10 +131,12 @@ h1 {
     font-weight: 100;
 }
 
+/* person profile social media*/
 .profile-social-media {
     margin-top: 10px;
 }
 
+/* person profile map view*/
 .profile-map {
     margin-top: 20px;
 }
