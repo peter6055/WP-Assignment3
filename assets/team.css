@@ -39,6 +39,10 @@ html, body{
     margin-left: auto;
 }
 
+#footer a:link, #footer a:active, #footer a:hover, #footer a:visited{
+    color: #FF7F50FF;
+}
+
 /* ---------------------------------- Head ----------- */
 /*background styling*/
 #bg1{

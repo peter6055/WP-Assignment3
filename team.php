@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Noto Sans" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
 
+    <?php
+        ini_set( "display_errors", 1 );
+        error_reporting( E_ALL );
+    ?>
 </head>
 
 <body>
@@ -63,16 +67,7 @@
         </div>
     </div>
 
-    <footer class="container" id="footer">
-        <div id="left">
-            Copyright 2021 by Peter Liu. All Rights Reserved.<br>
-
-        </div>
-
-        <div id="right">
-            <?php echo 'This webpage was last modified by LIU SHIH MING on '.date('Y-m-d H:i:s', filemtime(__FILE__));?>
-        </div>
-    </footer>
+    <?php require_once "includes/footer.php" ?>
 
 </body>
 </html>
