@@ -1,11 +1,134 @@
-.container{
-    padding-left: 40px;
-    padding-right: 40px;
-    background: red;
-    height: 40px;
+/* ---------------------------------- Global ----------- */
+/*body no margin*/
+html, body{
+    margin: 0px;
+    height: 100%;
 }
 
+/*global container*/
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+/*align center & middle container*/
+.d-flex-cus{
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.wapper{
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+/*footer*/
+#footer{
+    background: #626262;
+    height: 70px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+#footer #right{
+    margin-left: auto;
+}
+
+/* ---------------------------------- Head ----------- */
+/*background styling*/
+#bg1{
+    background-image: url("images/bg.jpg");
+    height: 300px;
+}
+
+/*font in the head*/
 h1{
-    font-family: "Noto Sans", sans-serif, Arial;
+    font-family: "Lato", sans-serif, Arial;
     text-align: center;
+    color: #ffffff;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+/* ---------------------------------- People ----------- */
+/*people container*/
+.d-grid-cus{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:0px;
+}
+
+/*people item grid*/
+.d-grid-item-cus{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#people-item1{
+    border-top: #68dcd1 10px solid;
+}
+
+#people-item2{
+    border-top: #91d6a6 10px solid;
+}
+
+#people-item3{
+    border-top: #f0826a 10px solid;
+}
+
+
+.profile-img{
+    border-radius: 99999px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 190px;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.profile-name{
+    font-family: "Lato", sans-serif, Arial;
+    font-size:18px;
+    font-weight: 600;
+    color: #494949;
+    width: 130px;
+    padding: 9px;
+    margin: 10px auto 20px;
+}
+
+.profile-role{
+    font-size: 20px;
+    font-family: "Lato", sans-serif, Arial;
+    font-weight: 300;
+    color: #494949;
+    border-bottom: 4px solid;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.profile-intro{
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif, Arial;
+    color: #787878;
+    font-weight: 100;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.profile-social-media{
+    margin-top: 10px;
 }
