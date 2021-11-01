@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dfa6da63-4ed0-4897-90f7-edb57988d176" name="RMIT" url="https://titan.csit.rmit.edu.au/~s3789585/wp/a3/">
+        <fileTransfer rootFolder="/home/sh5/S3789585/public_html/wp/a3" accessType="SFTP" host="titan.csit.rmit.edu.au" port="22" sshConfigId="0ba93cf5-90c1-4863-a95d-696c65e4bd98" sshConfig="S3789585@titan.csit.rmit.edu.au:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
