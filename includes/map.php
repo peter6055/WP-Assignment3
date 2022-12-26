@@ -3,7 +3,7 @@
 //ini_set( "display_errors", 1 );
 //error_reporting( E_ALL );
 
-const API_KEY = 'Z0TyTOt9Shzfs01IsWTLkKi7ctt14Yyuv849uRRc-RM';
+const API_KEY = '';
 
 function map($city, $country){
 
